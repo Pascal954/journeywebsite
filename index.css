@@ -53,7 +53,7 @@
     background-color: var(--primary-color);
     border-radius: 5rem;
     cursor: pointer;
-    transition: .3s;
+    transition: .4s;
 }
 
 .btn:hover{
@@ -528,6 +528,12 @@ header{
 
     .footer__container{
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media ( width < 800px) {
+    .btn{
+        background-color: black;
     }
 }
 
